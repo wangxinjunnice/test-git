@@ -20,6 +20,13 @@ public class test {
         return "hello list...";
     }
 
+    @GetMapping("/gits")
+    public String gets(){
+        return "hello git...";
+    }
+
+
+
 
 
 }
