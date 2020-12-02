@@ -15,6 +15,11 @@ public class test {
         return "hello git...";
     }
 
+    @GetMapping("/list")
+    public String list(){
+        return "hello list...";
+    }
+
 
 
 }
