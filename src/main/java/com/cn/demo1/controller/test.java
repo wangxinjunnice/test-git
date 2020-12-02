@@ -30,6 +30,11 @@ public class test {
         return "allTest git...";
     }
 
+    @GetMapping("/all")
+    public String all(){
+        return "all git...";
+    }
+
 
 
 
