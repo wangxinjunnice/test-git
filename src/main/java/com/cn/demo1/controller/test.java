@@ -25,6 +25,11 @@ public class test {
         return "hello git...";
     }
 
+    @GetMapping("/all")
+    public String all(){
+        return "all git...";
+    }
+
 
 
 
